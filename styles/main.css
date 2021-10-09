@@ -50,6 +50,21 @@ main{
 .servicios{
     margin-top: 50px;
 }
+.servicios-ul{
+    margin-top: 20px;
+}
+.servicios-uno{
+    color: #FF0000;
+}
+.servicios-dos{
+    color: blue;
+}
+.servicios-tres{
+    color:chocolate;
+}
+.servicios-cuatro{
+    color: skyblue;
+}
 .servicios h2{
     color: #D206B2;
     margin-bottom: 20px;
@@ -61,6 +76,21 @@ main{
 
 .portafolio{
     margin-top: 50px;
+}
+.portafolio-ul{
+    margin-top: 20px;
+}
+.portafolio-uno{
+    color: #FF0000;
+}
+.portafolio-dos{
+    color: blue;
+}
+.portafolio-tres{
+    color:chocolate;
+}
+.portafolio-cuatro{
+    color: skyblue;
 }
 .portafolio h2{
     color: #AAD206;
@@ -109,4 +139,6 @@ main{
     padding: 2rem 2rem;
 }
 
-
+ul{
+    list-style: disc;
+}
