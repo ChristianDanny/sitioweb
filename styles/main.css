@@ -1,0 +1,110 @@
+main{
+    margin-left: 33px;
+}
+.header{
+    background-color: #00AF1C;
+    padding: 2rem 0;
+}
+.header a{
+    color: white;
+    text-decoration: none;
+}
+.logo-nav-container {
+    display: flex;
+    justify-content: space-between;
+    /* lo alineamos al centro */
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+.logo{
+    padding-left: 33px;
+    letter-spacing: 2px;
+
+}
+.barra ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.barra ul li{
+    display: inline-block;  
+}
+.barra ul li a{
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.2s linear;
+    border-radius: 5px;
+}
+.home{
+    margin-top: 50px;
+}
+.home h2{
+    color: #3B06D2;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.home p{
+    margin-bottom: 20px;
+}
+.servicios{
+    margin-top: 50px;
+}
+.servicios h2{
+    color: #D206B2;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.servicios p{
+    margin-bottom: 20px;
+}
+
+.portafolio{
+    margin-top: 50px;
+}
+.portafolio h2{
+    color: #AAD206;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.portafolio p{
+    margin-bottom: 20px;
+}
+.contacto{
+    margin-top: 50px;
+}
+.contacto h2{
+    color: #06D2C6;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.contacto p{
+    margin-bottom: 20px;
+}
+.formulario input{
+    width: 100%;
+}
+.formulario textarea{
+    width: 100%;
+}
+.boton {
+    border-color: #22A900;
+    background: transparent;
+    background-color: #fff;
+    width: 15%;
+    color: #22A900;
+    padding: 15px 30px;
+    border-style: double;
+}
+.boton:hover{
+    background: #22A900;
+}
+.footer{
+    background-color: #00AF1C;
+    display: flex;
+    justify-content: space-between;
+    /* lo alineamos al centro */
+    align-items: center;
+    color: white;
+    padding: 2rem 2rem;
+}
